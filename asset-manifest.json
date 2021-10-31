@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ReactReligiousWebSite/static/css/main.eac99e50.chunk.css",
+    "main.js": "/ReactReligiousWebSite/static/js/main.bc5b4170.chunk.js",
+    "main.js.map": "/ReactReligiousWebSite/static/js/main.bc5b4170.chunk.js.map",
+    "runtime-main.js": "/ReactReligiousWebSite/static/js/runtime-main.bd2216f2.js",
+    "runtime-main.js.map": "/ReactReligiousWebSite/static/js/runtime-main.bd2216f2.js.map",
+    "static/css/2.ffd378cf.chunk.css": "/ReactReligiousWebSite/static/css/2.ffd378cf.chunk.css",
+    "static/js/2.9a5754c1.chunk.js": "/ReactReligiousWebSite/static/js/2.9a5754c1.chunk.js",
+    "static/js/2.9a5754c1.chunk.js.map": "/ReactReligiousWebSite/static/js/2.9a5754c1.chunk.js.map",
+    "index.html": "/ReactReligiousWebSite/index.html",
+    "static/css/2.ffd378cf.chunk.css.map": "/ReactReligiousWebSite/static/css/2.ffd378cf.chunk.css.map",
+    "static/css/main.eac99e50.chunk.css.map": "/ReactReligiousWebSite/static/css/main.eac99e50.chunk.css.map",
+    "static/js/2.9a5754c1.chunk.js.LICENSE.txt": "/ReactReligiousWebSite/static/js/2.9a5754c1.chunk.js.LICENSE.txt",
+    "static/media/Mosque.9c4091ba.mp4": "/ReactReligiousWebSite/static/media/Mosque.9c4091ba.mp4",
+    "static/media/all.min.css": "/ReactReligiousWebSite/static/media/fa-solid-900.eeccf4f6.woff",
+    "static/media/mushaf-slam.1816ad74.jpg": "/ReactReligiousWebSite/static/media/mushaf-slam.1816ad74.jpg",
+    "static/media/index.css": "/ReactReligiousWebSite/static/media/mushaf2.16b32d61.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd2216f2.js",
+    "static/css/2.ffd378cf.chunk.css",
+    "static/js/2.9a5754c1.chunk.js",
+    "static/css/main.eac99e50.chunk.css",
+    "static/js/main.bc5b4170.chunk.js"
+  ]
+}
