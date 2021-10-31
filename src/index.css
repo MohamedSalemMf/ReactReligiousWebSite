@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    direction: rtl !important;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.NavLinkQ{
+   color: #d400d4 !important;
+   font-size: 1.3rem !important;
+}
+
+.navA ul li {
+    font-size: 1.3rem !important;
+}
+
+.cvc .cvc2{
+    font-size: 3rem !important;
+}
+
+/* =================================================================================== */
+/* Conversations */
+.ConversationsCol{
+    display: none;
+}
+
+#colMore{
+    position: relative;
+}
+
+#colMore h4{
+    box-shadow:2px 2px 5px #d400d4,
+    -2px -2px 5px #00ccff;
+    padding: 30px;
+    border-radius: 12px ;
+}
+
+#colMore h6{
+    position: absolute;
+    left: 13.5%;
+    top: 1px;
+    padding: 8px 12px;
+    border-radius: 12px  0px 0px 0px;
+    color:#fff;
+}
+
+/* ================================================================================== */
+/* Quran */
+.memder{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    box-shadow:-2px -2px 5px  #00ccff,
+				2px 2px 5px #d400d4;
+                height: 17vh;
+}
+
+.member-caption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1; 
+    transform: scale(1,1);
+    transition: all 1s;
+}
+
+.memder:hover img{
+    transform: scale(1.2,1.2);
+}
+.member-caption h2{
+    color: #fff;
+}
+
+.QuranS{
+    cursor: pointer;
+}
+
+/* =========================================================================== */
+/* idQuran */
+.borderIdQuran{
+    border: solid 1px #999;
+    width: 10%;
+    margin: auto;
+}
+.nameQuran{
+    position: relative;
+}
+
+.nameQuran h1{
+	font-weight:700;
+    color: #fff;
+}
+
+.Ayat{
+    font-size:1.5rem;
+	font-weight:600;
+    color: #fff;
+}
+
+.sectionQuran{
+    background-image: url('../src/images/mushaf2.jpg');
+	background-size:cover;
+	background-position:center center;
+	background-attachment:fixed;
+}
+
+.sectionQuran .layer{
+	background-color: rgba(0,0,0,0.8);
+	height: 100%;
+}
+
+/* ==================================================================================== */
+/* pray Time */
+.boxPrayerTimes{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    width: 200px;
+    height: 20vh;
+    text-align: center;
+}
+
+.boxPrayerTimes::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(#00ccff,#d400d4);
+    width: 100px;
+    height: 150%;
+    animation: animate 4s linear infinite;
+}
+
+.boxPrayerTimes::after{
+    content: '';
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+   inset: 4px;
+}
+
+
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.boxPrayerTimes div{
+    position: relative;
+    z-index: 10;
+    font-size: 2rem;
+}
+
+#BtnMore{
+    margin: 20px auto 50px;
+}
+
+@media screen and (max-width:575px){
+	
+	.container-PrayerTimes{
+	margin: auto;
+    width: 50%;
+	}
+}

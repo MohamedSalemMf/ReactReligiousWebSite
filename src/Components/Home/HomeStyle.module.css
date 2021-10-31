@@ -1,0 +1,108 @@
+/* Home ================================================================================================== */
+
+.videoMonster{
+	top: 0%;
+	left: 0%;
+	bottom: 0%;
+	right: 0%;
+	object-fit: cover ;
+	width: 100%;
+	height: 100vh;
+	z-index: -1;
+}
+
+.layer{
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100vh;
+}
+
+.animated { 
+    animation-duration: 1s; 
+    animation-fill-mode: both; 
+}
+
+.caption h1{
+	font-size: 10rem;
+	font-weight:900;
+
+	transform: scale(1,1);
+	animation-name: scale-h1;		
+	animation-duration: 2s;
+	animation-iteration-count:1;	
+	animation-direction:alternate ;	
+	animation-delay:0.3s;	
+}
+@keyframes scale-h1{
+	0%{ 
+		transform: scale(0,0);
+		Opacity:0;
+	}
+	100%{
+		transform: scale(1,1);
+		Opacity:1;
+	}
+}
+
+
+.caption h2{
+  font-size: 4rem;
+	font-weight:600;
+	padding:10px;
+	transform: scale(1,1);
+	animation-name: scale-h2;		
+	animation-duration: 2s;
+	animation-iteration-count:1;	
+	animation-direction:alternate ;	
+	animation-delay:0.9s;	
+}
+@keyframes scale-h2{
+	0%{ 
+		transform: scale(0,0);
+		Opacity:0;
+	}
+	100%{
+		transform: scale(1,1);
+		Opacity:1;
+	}
+}
+.caption p{
+  font-size: 2rem;
+
+	padding:10px;
+	transform: scale(1,1);
+	animation-name: scale-p;		
+	animation-duration: 2s;
+	animation-iteration-count:1;	
+	animation-direction:alternate ;	
+	animation-delay:1.4s;	
+	font-weight:700;
+	
+}
+@keyframes scale-p{
+	0%{ 
+		transform: scale(0,0);
+		Opacity:0;
+	}
+	100%{
+		transform: scale(1,1);
+		Opacity:1;
+	}
+}
+
+.buttonEnd{
+	transform: scale(1,1);
+	animation-name: scale-button1;		
+	animation-duration: 2s;
+	animation-iteration-count:1;	
+	animation-direction:alternate ;	
+	animation-delay:1.8s;	
+}
+
+/* Home ================================================================================================== */
+
+
+.Typeds{
+	font-size: 2rem;
+	font-weight:400;
+}
